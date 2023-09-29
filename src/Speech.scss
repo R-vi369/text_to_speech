@@ -1,0 +1,50 @@
+.speech{
+    background-color: rgb(34, 25, 25);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        text-transform: capitalize;
+        color: white;
+    }
+
+
+    .text{
+        margin: 3rem;
+        padding: 3rem;
+        background-color: transparent;
+        color: white;
+    }
+
+    .btns{
+        padding: 2rem;
+        display: flex;
+        gap: 3rem;
+        button{
+            padding: 1rem 2rem;
+            border-radius: 22rem;
+            border: none;
+        }
+        .del{
+            background-color: rgb(105, 42, 42);
+            color: white;
+            font-weight: 700;
+            &:hover{
+                background-color: rgb(232, 16, 16);
+            }
+        }
+        .speak{
+            border: 1px solid white;
+            background-color: transparent;
+            color: white;
+            font-weight: 700;
+            &:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+
+    }
+}
